@@ -1,6 +1,6 @@
 # Flask API example
 
-This project is a Flask API using Flask-SQLAlchemy, Flask-Caching, Flask-Migrations and Flask-RESTPLus extensions.
+This project is a Flask API using [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/), [Flask-Caching](https://pythonhosted.org/Flask-Caching/), [Flask-Migrations](https://flask-migrate.readthedocs.io/en/latest/), [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/) and [Flask-RESTPLus](https://flask-restplus.readthedocs.io/en/stable/) extensions.
 
 ## Getting Started
 
@@ -19,8 +19,15 @@ This api was develoed using `python 3.7`. To install the requeriments run inside
 
     pip install requirements.txt
 
+## Running
 
+Inside the `src/project` folder:
+
+- `flask run`:  Runs the API
+- `flask db init`: Initiate the [Alembic](https://alembic.sqlalchemy.org/en/latest/) migrations
+- `flask db migrate`: Create the migrations files
+- `flask db upgrate`: Upgrade the migrations to database
 
 ## Authors
 
-* **Marcos Camargo** - *Initial work* - [marcoscrcamargo](https://github.com/marcoscrcamargo)
+- **Marcos Camargo** - *Initial work* - [marcoscrcamargo](https://github.com/marcoscrcamargo)
