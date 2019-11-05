@@ -20,7 +20,7 @@ class Custom_API(Api):
             "flask_restplus.apidoc",
             template_folder="templates",
             static_folder="static",
-            static_url_path="/dashboard/api/v1",
+            static_url_path="/api/v1",
         )
 
         @custom_apidoc.add_app_template_global
