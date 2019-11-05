@@ -5,6 +5,7 @@ SQLAlchemy==1.3.8
 SQLAlchemy-Utils==0.34.2
 flask-sqlalchemy==2.4.1
 flask-caching==1.7.2
+flask-migrate==2.5.2
 redis==3.3.11
 gunicorn==19.9.0
 flask_cors==3.0.8
