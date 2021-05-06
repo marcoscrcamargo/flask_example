@@ -8,4 +8,4 @@ flask-caching==1.7.2
 flask-migrate==2.5.2
 redis==3.3.11
 gunicorn==19.9.0
-flask_cors==3.0.8
+flask_cors==3.0.9
